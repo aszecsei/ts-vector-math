@@ -1,6 +1,10 @@
 import { EPSILON } from './common'
 
-export class Vector2 {
+export default class Vector2 {
+  /**
+   * Retrieves a new instance of the vector (0, 0)
+   * @returns {Vector2}
+   */
   static get zero(): Vector2 {
     return new Vector2([0, 0])
   }
