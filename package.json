@@ -2,6 +2,7 @@
   "name": "ts-vector-math",
   "version": "0.0.0-development",
   "description": "",
+  "homepage": "https://aszecsei.github.io/ts-vector-math/",
   "keywords": [],
   "main": "dist/ts-vector-math.umd.js",
   "module": "dist/ts-vector-math.es5.js",
