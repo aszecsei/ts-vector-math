@@ -1,4 +1,4 @@
-import { Vector2 } from '../src/vec2'
+import Vector2 from '../src/vec2'
 
 describe('Vector2', () => {
   it('is instantiable', () => {
