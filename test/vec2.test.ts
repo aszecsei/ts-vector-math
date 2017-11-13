@@ -237,4 +237,8 @@ describe('Vector2', () => {
     Vector2.cross(v1, v2, v3)
     expect(v3).toEqual(expected)
   })
+
+  it('exports to a string', () => {
+    expect(Vector2.zero.toString()).toEqual('(0, 0)')
+  })
 })

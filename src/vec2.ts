@@ -378,6 +378,10 @@ export default class Vector2 {
     dest.y *= length
     return dest
   }
+
+  toString(): string {
+    return '(' + this.x + ', ' + this.y + ')'
+  }
   // TODO: Multiply Matrix2
   // TODO: Multiply Matrix3
 }
