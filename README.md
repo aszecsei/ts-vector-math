@@ -1,4 +1,4 @@
-# TypeScript library starter
+# TypeScript Vector Math Library
 
 > A TypeScript library to handle vector and matrix math.
 
