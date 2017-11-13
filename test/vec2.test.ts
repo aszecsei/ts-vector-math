@@ -1,4 +1,5 @@
 import Vector2 from '../src/vec2'
+import Vector3 from '../src/vec3'
 
 describe('Vector2', () => {
   it('is instantiable', () => {
@@ -225,5 +226,15 @@ describe('Vector2', () => {
     expect(v1.length()).toEqual(0)
     v1.normalize(v2)
     expect(v1).toEqual(v2)
+  })
+
+  it('calculates the cross-product', () => {
+    let v1 = new Vector2([1, 2])
+    let v2 = new Vector2([-2, 5])
+    const expected = new Vector3([0, 0, 9])
+    expect(Vector2.cross(v1, v2)).toEqual(expected)
+    let v3 = Vector3.zero
+    Vector2.cross(v1, v2, v3)
+    expect(v3).toEqual(expected)
   })
 })

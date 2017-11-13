@@ -1,4 +1,4 @@
-import { EPSILON } from './common'
+import { EPSILON, Vector3 } from './common'
 
 export default class Vector2 {
   /**
@@ -58,7 +58,18 @@ export default class Vector2 {
       this.xy = values
     }
   }
-  // TODO: Cross-product
+
+  static cross(vector: Vector2, vector2: Vector2, dest?: Vector3): Vector3 {
+    if (!dest) dest = new Vector3()
+    let x = vector.x
+    let y = vector.y
+    let x2 = vector2.x
+    let y2 = vector2.y
+    let z = x * y2 - y * x2
+    dest.xyz = [0, 0, z]
+    return dest
+  }
+
   /**
    * Calculates the dot product of two vectors
    * @param {Vector2} vector
