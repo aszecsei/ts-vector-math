@@ -12,4 +12,8 @@ describe('Library', () => {
   it('contains Vector4', () => {
     expect(new math.Vector4()).toBeInstanceOf(math.Vector4)
   })
+
+  it('contains Matrix2', () => {
+    expect(new math.Matrix2()).toBeInstanceOf(math.Matrix2)
+  })
 })
