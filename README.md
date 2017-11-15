@@ -15,3 +15,7 @@ npm install ts-vector-math --save-dev
 ```
 ## License
 [MIT](http://vjpr.mit-license.org)
+
+## Roadmap
+
+ts-vector-math uses [taiga.io](https://tree.taiga.io/project/aszecsei-ts-vector-math/) for its roadmap. Feature suggestions and bug reports should be submitted there.
