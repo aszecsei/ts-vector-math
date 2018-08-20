@@ -97,7 +97,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-sourcemaps": "^0.4.2",
     "semantic-release": "^12.2.4",
-    "ts-jest": "^22.0.0",
+    "ts-jest": "^23.1.4",
     "ts-node": "^4.0.0",
     "tslint": "^5.4.3",
     "tslint-config-prettier": "^1.1.0",
